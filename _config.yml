@@ -1,0 +1,26 @@
+title: Eremi's Blog
+email: barbara0419@naver.com
+description: "개발하는 개발자"
+author:             Start Bootstrap
+baseurl: /
+url:
+
+# Social Profiles
+twitter_username:   
+github_username:    ramram419
+facebook_username: 
+instagram_username:  kar0419
+linkedin_username:
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+timezone: Asia/Seoul # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones #한국 타임존 설정
